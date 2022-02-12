@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient(to top, #1A5B37, #3BD37F);
+    padding: 7px;
+}
+header h1, h2{
+    text-align: center;
+}
+header a {
+    padding: 10px;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    transition: 1s;
+    background-color: rgb(21, 197, 5);
+}
+main h3.versao{
+    background-color: #c2e7d39c;
+}
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.76);
+    min-width: 320px;
+    max-width: 800px;
+}
+h5#extra {
+    background-color: #2FA866;
+    padding: 10px;
+    border-top-left-radius: 20px;
+}
+div{
+    background-color: #C5EBD6;
+    border-radius: 20px;
+    padding: 10px;
+}
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 1px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 100%;
+}
+main img#bug{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
