@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    margin-top: 0px;
+}
+img.logo1 {
+    width: 100px;
+    margin-left: 130px;
+}
+div.divmain {
+    background-image: linear-gradient(to top, #0E1C34, #1E4F6C);
+    width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+   display: flex;
+    margin-left: 450px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px;
+    color: #b8aea9;
+    margin-top: -38px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+}
+nav a.box1 {
+    color: black;
+    background-image: linear-gradient(to right, #28A5F8, #4BE0E6);
+    border-radius: 10px;
+    font-size: 14px;
+    font-variant: small-caps;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img.banner1 {
+    display: flex;
+    padding: 100px;
+    margin-top: -600px;
+    margin-left: 680px;
+
+}
+div h2 {
+    font-size: 64px;
+    color: white;
+    margin-top: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+div h3 {
+    color: #B1AFAE;
+    font-size: 20px;
+    padding: 4px;
+}
+div h4 {
+    color: white;
+    margin-left: 150px;
+    background-image: linear-gradient(to right, #EF1C40, #FF9D05);
+    width: 140px;
+    height: 10px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+}
+section.section1 h3 {
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E1C34;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+div.div2 h5 {
+    display: inline-block;
+    background-color: white;
+    padding: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
